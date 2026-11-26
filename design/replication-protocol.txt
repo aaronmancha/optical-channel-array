@@ -1,0 +1,38 @@
+OPTICAL CHANNEL ARRAY / REPLICATION PROTOCOL
+Working prototype dimensions, not measurements of the actual film prop.
+
+Prototype: 18 columns x 14 rows, 252 hollow tubes, 8.0 mm OD, 7.4 mm
+nominal clear ID, 8.05 mm pitch, 25 mm depth. Measure the tubes before
+laying out a final frame. The printable drawing is a center-and-placement
+guide, not a requirement to drill 252 holes with only 0.05 mm webs.
+
+Fast test: First make a 7 x 7 coupon from straight opaque tube stock.
+Cut square and deburr using a jig. Stand the pieces on a flat plate against
+a square fence, and cinch them into a shallow cardboard collar with tape.
+For the full panel use a 144.9 x 112.7 mm nominal clear frame opening with
+5 mm rails on each side and an open back. Clamp the outer tubes gently.
+Seal gaps between tubes with removable opaque putty if they show a
+distracting second pattern; don't plug the bores. Try differently colored
+walls separately. For a full array plan on about 6.3 meters of tube,
+plus cutting waste.
+
+Shoot: camera > tube panel > illuminated subject. Start with the panel
+as near the lens as focusing and coverage allow. Aim through the center
+and expose for the face or chart behind it. Lock camera exposure/focus
+before comparing; rock the panel slowly rather than panning the subject.
+Compare 0 degrees and roughly 15 degrees; try a 15 mm segment if too
+dark, or a 35 mm segment if the angular effect is too mild.
+
+A straight opaque tube limits the overlap of its near and far apertures
+by L*tan(theta). For ID 7.4 mm and L 25 mm, a single ideal tube loses its
+direct view at roughly 16.5 degrees. That isn't a camera-wide cutoff:
+perspective makes the local angle different across the panel, and real
+walls scatter light. The renders compare camera positions using the
+same geometry and grid. Look at the center band and how the visible
+window moves sideways in the off-axis view.
+
+Blender: the file contains the actual annular bore meshes (24 segments
+per tube), three cameras, lights and a chartreuse test chart. It does not
+need external textures. To rebuild with altered dimensions change
+cols/rows/pitch/depth/OD/ID near the top of build_panel.py and run it with
+a local Blender executable in background mode.
