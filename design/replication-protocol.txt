@@ -1,5 +1,5 @@
 OPTICAL CHANNEL ARRAY / REPLICATION PROTOCOL
-Working prototype dimensions, not measurements of the actual film prop.
+Nominal dimensions for the optical channel array study.
 
 Prototype: 18 columns x 14 rows, 252 hollow tubes, 8.0 mm OD, 7.4 mm
 nominal clear ID, 8.05 mm pitch, 25 mm depth. Measure the tubes before

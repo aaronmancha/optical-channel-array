@@ -1,6 +1,6 @@
 # Optical Channel Array
 
-A parametric Blender study of a parallel-channel optical array inspired by drinking-straw imaging. The model contains **252 annular channels**, not meshes of off-the-shelf drinking straws. It is a reconstruction study, not a digital scan or measurement of a film prop.
+A parametric Blender study of a parallel-channel optical array inspired by drinking-straw imaging. The model contains **252 annular channels**, not meshes of off-the-shelf drinking straws. The dimensions define a nominal optical study.
 
 ![Three-quarter view of the optical array in its clamp frame](renders/01-three-quarter.jpg)
 
